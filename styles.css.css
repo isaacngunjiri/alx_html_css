@@ -1,0 +1,282 @@
+/*HOME BODY SECTION*/
+header{
+    position: relative;
+    height: 60px;
+    padding: 30px;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+ }
+ .logo{
+     position: absolute;
+     top: 10px;
+     right: 1150px;
+     padding: 15px;
+ }
+ 
+ 
+ nav a{
+     justify-content: right;
+     font-family: "Source Sans 3", sans-serif;
+     text-decoration: none;
+     color: #FFFFFF;
+     margin: 50px;
+     font-size: 15px;
+     
+ }
+ 
+ .leading{
+     height: 160vh;
+     background-image: url("get schooled images/Object.png");
+     background-size: cover;
+     color: #FFFFFF;
+     
+ }
+ .topic h1{
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 90px;
+     font-weight: bolder;
+     padding-top: 2px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin: 25px;
+ }
+ 
+ .span{
+     font-size: 20px;
+     font-family: "Source Sans 3", sans-serif;;
+     grid-auto-flow: column; /* Arrange span elements in a row */
+     gap: 20px;
+     text-align: center;
+     
+     
+ }
+ button{
+     font-size: 18px;
+     background-color: #C271FF;
+     width: max-content;
+     color: #FFFFFF;
+     border-radius: 50px;
+     text-align: center;
+     font-family: "Source Sans 3", sans-serif;
+     display: block;
+     margin: auto;
+     margin-top: 30px;
+     border: none;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left:20px ;
+     padding-right: 15px;
+     
+ 
+ }
+ .sub_title{
+     font-size: 18px;
+     text-align: center;
+     margin-top: 200px;
+     font-family: "Source Sans 3", sans-serif;
+     
+ }
+ .learn_pros{
+     color: #C271FF;
+ }
+ .pros{
+     display: flex;
+     margin: 50px;
+     padding-left: 200px;
+     justify-content: space-between;
+     align-content: center;
+     
+ }
+ .Bruce{
+     border-radius: 100px;
+ }
+ .client1{
+     padding-right: 100px;
+     padding-bottom: 200px;
+ }
+ 
+ /*Quote section*/
+ 
+ 
+ 
+ .block_quote{
+     padding-left: 300px;
+     background-color: #C271FF;
+     justify-content: center;
+     padding-top: 50px;
+     align-content: center;
+     padding-bottom: 80px;
+     padding-top: 80px;
+     
+ }
+ 
+ .quote_image{
+     position: absolute;
+     display: flex;
+     align-content: center;
+     height: 150px;
+     
+ }
+ 
+ .quote{
+     text-align: right;
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 18px;
+     padding-right: 200px;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+ 
+ }
+ .Author{
+     text-align: start;
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 15px;
+     padding-left: 200px;
+ 
+ }
+ 
+ /*Most popular tutorials*/
+ 
+ .tutorials{
+     display: flex;
+     flex-direction: row;
+     margin-top: 100px;
+     color: black;
+     font-family: "Source Sans 3", sans-serif;
+     background-color: #FFFFFF;
+ }
+ .Video_heading{
+     position: absolute;
+     padding-left: 650px;
+     font-weight: lighter;
+ }
+ 
+ .pop_color{
+     color: #C271FF;
+ }
+ .video_display{
+     display: flex;
+     flex-direction: row;
+     margin-top: 80px;
+     padding-right: 200px;
+     justify-content: space-around;
+     padding-left: 200px; 
+ }
+ 
+ .rate_image{
+     position: absolute;
+     height: 50px;
+     margin-top: 1px;
+ }
+ .rate_name{
+     color: #C271FF;
+     align-content: center;
+     margin-left: 70px;
+     
+ }
+ .rate_score{
+     position: absolute;
+     height: 15px;
+     margin-top: 18px;
+ }
+ .rate_comment p{
+     color: #C271FF;
+     align-content: center;
+     margin-left: 220px;
+     position: absolute;
+ }
+ 
+ .play_button{
+     position: absolute;
+     height: 70px;
+     padding-top: 50px;
+     padding-left: 70px;
+     
+ }
+ /* Free membership*/
+ 
+ .membership{
+     color: white;
+     background-color: #071629;
+ }
+ .membership_heading{
+     text-align: center;
+     margin-top: 90px;
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 18px;
+     padding-top: 30px;
+ }
+ .highlight_free{
+     color: #C271FF;
+ }
+ .membership_section{
+     display: flex;
+     align-content: center;
+     justify-content: space-between;
+     margin-top: 60px;
+     padding-left: 100px;
+     padding-right:100px ;
+     padding-bottom: 60px;
+ }
+ .logo_smile{
+    padding-left: 150px;
+ }
+ .lorem{
+     text-align: center;
+ }
+ 
+ .membership_button{
+     padding-bottom: 40px;
+ }
+ 
+ /*FQA*/
+ 
+ .frequent_questions_asked{
+     color: black;
+     display: flex;
+     flex-direction: column;
+ }
+ .fqa_heading{
+     text-align:center;
+     margin-top: 50px;
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 30px;
+     font-weight: lighter;
+ }
+ .fqa_section{
+     display:flex;
+     justify-content: space-around;
+     font-family: "Source Sans 3", sans-serif;
+     font-size: 18px;
+     margin-bottom: 50px;
+ }
+ 
+ /*FOOTER SECTION*/
+ 
+ .bottom_footer{
+     background-color: #071629;
+   
+ }
+ 
+ .socialmedia_icons{
+     display: flex;
+     justify-content: right;
+     padding-right: 300px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+ }
+ .smile_copyright{
+     text-align: center;
+     color: gray;
+ }
+ .smile_footer{
+     position: absolute;
+     display: flex;
+     justify-content: left;
+     padding-top: 100px;
+     padding-left: 300px;
+     padding-bottom: 100px;
+ }
